@@ -1,0 +1,278 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        container: {
+          padding: {
+            DEFAULT: '1rem',
+            sm: '2rem',
+            lg: '4rem',
+            xl: '5rem',
+            '2xl': '6rem',
+          },
+          center: true,
+
+        },
+        extend: {
+          colors: {
+            primary: '#1873CD',
+            secondary: '#FF0000',
+            secondary_light: '#FF3C3'
+          }
+        }
+      }
+    }
+
+
+  </script>
+</head>
+
+<body>
+
+  <nav class="navbar bg-white">
+    <div class="container">
+      <div class="py-5 items-center flex w-full justify-bettween">
+        <div class="left-side flex items-center lg:w-full w-1/2">
+          <div class="logo mr-10"><img class="lg:w-[120px] w-[100px]" src="img/logo.png" alt=""></div>
+          <ul class="menu lg:flex hidden">
+            <li class="pr-5" data-scroll-target="#home">Главная</li>
+            <li class="pr-5" data-scroll-target="#services">Услуги</li>
+            <li class="pr-5" data-scroll-target="#footer">Контакты</li>
+          </ul>
+        </div>
+
+        <div class="flex w-full justify-end items-center">
+
+          <div class="relative inline-block lg:mr-5">
+           
+           <div class="flex flex-col">
+            <div class="flex font-bold">
+              <a href="tel:87023463178" class="text-sm mr-5">
+                8(702)346-31-78</a>
+
+                <a href="tel:87023463178" class="text-sm">
+                    8(702)346-31-78</a>
+        
+            </div>
+
+
+            <p>Консультация без выходных</p>
+        </div>
+          
+        
+        </div>
+
+
+          <a href="https://api.whatsapp.com/send?phone=77023463178"
+            class="btn bg-secondary text-white lg:block hidden px-4 py-2 hover:bg-red-600 transition-all rounded-full">написать
+            whatsapp</a>
+        </div>
+
+
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="bg home h-[677px]">
+    <div class="container lg:mt-10">
+      <div class="flex flex-col items-center text-center justify-center w-full h-screen">
+
+        <div class="relative z-50">
+          <h1 class="text-white lg:text-[45px] text-[20px] font-bold uppercase">
+            изготовление брендированных полиэтиленовых пакетов для Вашего бизнеса
+
+          </h1>
+          <p class="text-white py-[14px] mb-10">
+            Мы постоянно поддерживаем качество нашей продукции и занимаемся производством уже 27 лет
+          </p>
+
+          <a href="https://api.whatsapp.com/send?phone=77023463178"
+            class="btn bg-secondary px-8 py-4 hover:bg-red-600 rounded-full text-white">написать специалисту</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section id="services">
+    <div class="mb-20">
+    <div class="bg-no-repeat bg-gray-200">
+      <div class="container">
+
+        <div class="flex items-center justify-center w-full lg:py-20 py-10">
+          <div class="flex items-center">
+            
+            <h3 class="lg:text-[28px] text-[16px] ml-2 uppercase font-bold">Наши услуги</h3>
+          </div>
+          <div>
+         
+          </div>
+        </div>
+
+
+
+
+      </div>
+      <div class="container">
+
+        <div class="grid gap-4 lg:grid-cols-3">
+       
+            <div class="p-5 bg-white">
+                <img src="img/p1.png" alt="">
+                <h3 class="font-bold mt-10">РЕМОНТ ЛАЗЕРНЫХ<br> ПРИНТЕРОВ</h3>
+                <button class="border border-gray-200 p-3 w-full mt-5">связаться с нами</button>
+
+            </div>
+
+
+            <div class="p-5 bg-white">
+                <img src="img/p2.png" alt="">
+                <h3 class="font-bold mt-10">ЗАПРАВКА КАРТРИДЖЕЙ
+                  <br>   В ОФИСЕ</h3>
+                <button class="border border-gray-200 p-3 w-full mt-5">связаться с нами</button>
+
+            </div>
+
+
+            <div class="p-5 bg-white">
+                <img src="img/p3.png" alt="">
+                <h3 class="font-bold mt-10">ЧЕРНО-БЕЛЫЕ КАРТРИДЖИ
+                   
+                    <br>  К ЛАЗЕРНЫМ ПРИНТЕРАМ И МФУ</h3>
+                <button class="border border-gray-200 p-3 w-full mt-5">связаться с нами</button>
+
+            </div>
+
+
+            <div class="p-5 bg-white">
+                <img src="img/p4.png" alt="">
+                <h3 class="font-bold mt-10">ЗАПРАВКА КАРТРИДЖЕЙ
+                   <br>  С ВЫЕЗДОМ</h3>
+                <button class="border border-gray-200 p-3 w-full mt-5">связаться с нами</button>
+
+            </div>
+
+
+            <div class="p-5 bg-white">
+                <img src="img/p5.png" alt="">
+                <h3 class="font-bold mt-10">ПРОШИВКА ПРИНТЕРОВ
+                   <br>  SAMSUNG, XEROX</h3>
+                <button class="border border-gray-200 p-3 w-full mt-5">связаться с нами</button>
+
+            </div>
+
+
+            <div class="p-5 bg-white">
+                <img src="img/p6.png" alt="">
+                <h3 class="font-bold mt-10">РЕМОНТ НОУТБУКОВ, <br> КОМПЬЮТЕРОВ</h3>
+                <button class="border border-gray-200 p-3 w-full mt-5">связаться с нами</button>
+
+            </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section class="py-20  bg service text-white">
+
+    <div class="container">
+      <h3 class="uppercase text-[28px] text-center font-bold mb-20">преимущества </h3>
+      <div class="grid lg:grid-cols-3 grid-cols-1">
+        <div class="flex items-center justify-center flex-col lg:mb-0 mb-10">
+          <img class="mb-5" src="img/1.svg" alt="">
+          <span>Прозрачные
+            условия</span>
+        </div>
+        <div class="flex items-center justify-center flex-col lg:mb-0 mb-10">
+          <img class="mb-5" src="img/2.svg" alt="">
+          <span>Персональный
+            подход</span>
+        </div>
+        <div class="flex items-center justify-center flex-col lg:mb-0 mb-10">
+          <img class="mb-5" src="img/3.svg" alt="">
+          <span>Ценовая
+            политика </span>
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </section>
+
+  <footer id="footer" class="bg-no-repeat bg-cover advantage h-[542px] lg:mt-40 mt-20 relative py-40">
+    <div class="z-50 relative -top-[250px]">
+      <div class="container">
+        <div class="flex items-center justify-center">
+          <div class="w-[630px] bg-white h-full py-5 flex items-center justify-center flex-col">
+            <div class="flex w-full">
+              
+              <div class="bg-primary w-full flex items-center justify-center p-4">
+                <h3 class="ml-5 text-[28px] text-white uppercase font-bold">свяжитесь с нами</h3>
+              </div>
+            </div>
+
+            <form class="flex flex-col p-5 w-full h-full" action="">
+              <input placeholder="ваше имя" class=" w-full px-5 py-3 rounded-full bg-gray-100 mt-5 " type="text">
+              <input placeholder="Номер телефона" class=" w-full px-5 py-3 rounded-full bg-gray-100 mt-5" type="text">
+              <button class="bg-secondary w-full px-5 py-3 rounded-full text-white mt-5">отправить</button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="bg-black w-full z-50 p-5 absolute bottom-0 left-0 bg-opacity-40 text-white">
+      <div class="container">
+        <div class="w-full flex items-center justify-center">
+
+<span>Printservice.kz</span>
+
+        </div>
+      </div>
+    </div>
+
+
+    <a href="https://api.whatsapp.com/send?phone=77023463178" target="_blank" rel="noopener noreferrer"
+      class="whatsapp-float bg-green-500 p-5 rounded-full text-white text-opacity-70">
+      <img class="w-10 h-10" src="img/wp.svg" alt="">
+    </a>
+
+
+    <script>
+      document.querySelectorAll('.menu li').forEach(function (item) {
+        item.addEventListener('click', function (e) {
+          e.preventDefault();
+          var target = this.getAttribute('data-scroll-target');
+          if (target) {
+            document.querySelector(target).scrollIntoView({
+              behavior: 'smooth'
+            });
+          }
+        });
+      });
+    </script>
+
+
+  </footer>
+
+
+
+</body>
+
+</html>
